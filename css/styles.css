@@ -1,18 +1,21 @@
 body{
     margin: 15px;
-    overflow-x: hidden;
+    background-image: url("https://img.freepik.com/free-vector/simple-gradient-background-vector-winter-blue-pink_53876-105768.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 div{
     margin: 2% 0%;
 }
 span{
+    font-weight: bold;
     display: inline-block;
     width: 30%;
-}
-input{
-    width: 60%;
 }
 input[type="submit"]{
     width: 80px;
     height: 40px;
+    border-radius: 6px;
+    background: linear-gradient(to bottom right, lightblue, rgb(93, 93, 204), lightblue);
+    color: white;
 }
