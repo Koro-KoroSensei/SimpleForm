@@ -1,8 +1,10 @@
 body{
     margin: 15px;
-    background-image: url("https://img.freepik.com/free-vector/simple-gradient-background-vector-winter-blue-pink_53876-105768.jpg?w=2000");
+    background-image: url("https://media.istockphoto.com/photos/abstract-gradient-dark-purple-background-gradient-dark-purple-color-picture-id1162940275?b=1&k=20&m=1162940275&s=170667a&w=0&h=ZljXD6Zhb_F-nJgKxUimM8XisOjZwUu-VZJZt6qE6WU=");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
 div{
     margin: 2% 0%;
@@ -24,4 +26,5 @@ header{
     padding: 10px;
     color: white;
     background: linear-gradient(45deg, black, purple);
+    border-bottom: 1px solid white;
 }
