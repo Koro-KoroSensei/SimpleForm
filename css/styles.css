@@ -19,3 +19,9 @@ input[type="submit"]{
     background: linear-gradient(to bottom right, lightblue, rgb(93, 93, 204), lightblue);
     color: white;
 }
+header{
+    margin: -15px;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(45deg, black, purple);
+}
