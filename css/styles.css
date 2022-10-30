@@ -9,6 +9,7 @@ div{
     margin: 2% 0%;
 }
 form{
+    margin: 10px;
     font-size: large;
     padding: 0% 5%;
     margin: 0% 25% ;
@@ -29,7 +30,6 @@ input[type="submit"]{
     color: white;
 }
 header{
-    margin: 10px;
     padding: 10px;
     color: white;
     background: linear-gradient(45deg, black, purple);
@@ -37,4 +37,10 @@ header{
 }
 .icons{
     margin: 5px;
+}
+footer{
+    padding: 10px;
+    color: white;
+    background: linear-gradient(45deg, black, purple);
+    border-top: 1px solid white;
 }
