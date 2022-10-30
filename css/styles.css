@@ -13,6 +13,7 @@ span{
     font-weight: bold;
     display: inline-block;
     width: 30%;
+    color: cyan;
 }
 input[type="submit"]{
     width: 80px;
