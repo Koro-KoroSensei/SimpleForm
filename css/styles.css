@@ -1,5 +1,4 @@
 body{
-    margin: 15px;
     background-image: url("https://media.istockphoto.com/photos/abstract-gradient-dark-purple-background-gradient-dark-purple-color-picture-id1162940275?b=1&k=20&m=1162940275&s=170667a&w=0&h=ZljXD6Zhb_F-nJgKxUimM8XisOjZwUu-VZJZt6qE6WU=");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,17 +9,17 @@ div{
     margin: 2% 0%;
 }
 form{
+    font-size: large;
     padding: 0% 5%;
     margin: 0% 25% ;
     border: 1px solid white;
     width: 50%;
+    color: wheat;
     background-color: rgba(255, 255, 255, 0.347);
 }
 span{
     font-weight: bold;
     display: inline-block;
-    width: 30%;
-    color: cyan;
 }
 input[type="submit"]{
     width: 80px;
@@ -30,7 +29,7 @@ input[type="submit"]{
     color: white;
 }
 header{
-    margin: -15px;
+    margin: 10px;
     padding: 10px;
     color: white;
     background: linear-gradient(45deg, black, purple);
