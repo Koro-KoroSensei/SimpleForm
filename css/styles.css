@@ -39,3 +39,6 @@ header{
 .icons{
     margin: 5px;
 }
+span:hover{
+    color: blue;
+}
