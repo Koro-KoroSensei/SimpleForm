@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://media.istockphoto.com/photos/abstract-gradient-dark-purple-background-gradient-dark-purple-color-picture-id1162940275?b=1&k=20&m=1162940275&s=170667a&w=0&h=ZljXD6Zhb_F-nJgKxUimM8XisOjZwUu-VZJZt6qE6WU=");
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-beautiful-technology-website-business-poster-background-template-image_148436.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,8 +14,8 @@ form{
     margin: 0% 25% ;
     border: 1px solid white;
     width: 50%;
-    color: wheat;
-    background-color: rgba(255, 255, 255, 0.347);
+    color: rgb(90, 10, 128);
+    background-color: rgba(207, 212, 255, 0.8);
     border-radius: 10px;
 }
 span{
@@ -26,14 +26,18 @@ input[type="submit"]{
     width: 80px;
     height: 40px;
     border-radius: 6px;
-    background: linear-gradient(to bottom right, rgb(47, 47, 47), rgb(164, 46, 164), rgb(47, 47, 47));
+    background: linear-gradient(to bottom right, rgb(47, 47, 47), rgb(164, 46, 164));
     color: white;
     font-weight:500;
+}
+.sub-btn:hover{
+    background-color: linear-gradient(to bottom left, rgb(164, 46, 164),rgb(47, 47, 47), rgb(164, 46, 164));
+    color: white;
 }
 header{
     padding: 10px;
     color: white;
-    background: linear-gradient(45deg, black, purple);
+    background: linear-gradient(110deg, rgb(255, 255, 255), rgb(70, 32, 165));
     border-bottom: 1px solid white;
 }
 .icons{
@@ -41,11 +45,11 @@ header{
 }
 
 span:hover{
-    color: blue;
+    color: rgb(52, 11, 121);
 }
 footer{
     padding: 10px;
     color: white;
-    background: linear-gradient(45deg, black, purple);
+    background: linear-gradient(145deg, black, purple);
     border-top: 1px solid white;
 }
