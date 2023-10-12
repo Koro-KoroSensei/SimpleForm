@@ -1,55 +1,106 @@
-body{
+body {
     background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-beautiful-technology-website-business-poster-background-template-image_148436.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    font-family: Arial, sans-serif; /* Define a fallback font-family */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
 }
-div{
-    margin: 2% 0%;
+
+div {
+    margin: 2% 0;
 }
-form{
+
+main {
     font-size: large;
-    padding: 0% 5%;
-    margin: 0% 25% ;
+    padding: 0 5%;
+    margin: 0 25%;
     border: 1px solid white;
     width: 50%;
     color: rgb(90, 10, 128);
     background-color: rgba(207, 212, 255, 0.8);
     border-radius: 10px;
 }
-span{
-    font-weight: bold;
-    display: inline-block;
+
+fieldset {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
 }
-input[type="submit"]{
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+button {
     width: 80px;
     height: 40px;
     border-radius: 6px;
     background: linear-gradient(to bottom right, rgb(47, 47, 47), rgb(164, 46, 164));
     color: white;
-    font-weight:500;
+    font-weight: 500;
+    cursor: pointer; /* Add pointer cursor for better usability */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
 }
-.sub-btn:hover{
-    background-color: linear-gradient(to bottom left, rgb(164, 46, 164),rgb(47, 47, 47), rgb(164, 46, 164));
-    color: white;
+
+button:hover {
+    background: linear-gradient(to bottom left, rgb(164, 46, 164), rgb(47, 47, 47), rgb(164, 46, 164));
 }
-header{
+
+header {
     padding: 10px;
     color: white;
     background: linear-gradient(110deg, rgb(255, 255, 255), rgb(70, 32, 165));
     border-bottom: 1px solid white;
-}
-.icons{
-    margin: 5px;
+    text-align: center; /* Center align the text */
 }
 
-span:hover{
-    color: rgb(52, 11, 121);
-}
-footer{
+footer {
     padding: 10px;
     color: white;
     background: linear-gradient(145deg, black, purple);
     border-top: 1px solid white;
+    text-align: center; /* Center align the text */
+}
+
+/* Additional styles for icons if needed */
+.icons {
+    margin: 5px;
+    color: white; /* Set icon color to white */
+}
+
+/* Style the focus state for better accessibility */
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus {
+    border: 1px solid rgb(90, 10, 128);
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(90, 10, 128, 0.5);
+}
+
+/* Style the fieldset legend */
+legend {
+    font-weight: bold;
+}
+
+/* Update hover styles for labels */
+label:hover {
+    color: rgb(52, 11, 121);
 }

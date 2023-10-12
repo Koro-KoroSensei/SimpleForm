@@ -1,6 +1,9 @@
 ﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Simple sign up form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Signup Form</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
@@ -9,60 +12,71 @@
     <header>
         <h1 style="text-align: center;"><img height="40px" src="5599504.png"> Signup Form</h1>
     </header>
-
-    <div style="margin: 10px;">
+     <main>
         <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" class="form-control" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" class="form-control" placeholder="Last Name">
+                </div>
+                <!-- Add more form fields here -->
+            </fieldset>
+            
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-group">
+                    <label for="address-line-1">Address Line 1</label>
+                    <input type="text" id="address-line-1" class="form-control" placeholder="Address Line 1">
+                </div>
+                <div class="form-group">
+                    <label for="address-line-2">Address Line 2</label>
+                    <input type="text" id="address-line-2" class="form-control" placeholder="Address Line 2">
+                </div>
+                <!-- Add more contact fields here -->
+            </fieldset>
+
             <div class="form-group">
-                <span>First Name</span>
-                <input type="text" class="form-control" placeholder="First Name">
+                <label for="mobile-number">Mobile No.</label>
+                <input type="tel" id="mobile-number" class="form-control" placeholder="Mobile No.">
             </div>
+
             <div class="form-group">
-                <span>Last Name</span>
-                <input type="text" class="form-control" placeholder="Last Name">
+                <label for="date-of-birth">Date of Birth</label>
+                <input type="date" id="date-of-birth" class="form-control">
             </div>
+
+            <fieldset>
+                <legend>Parent's Information</legend>
+                <div class="form-group">
+                    <label for="father-name">Father's Name</label>
+                    <input type="text" id="father-name" class="form-control" placeholder="Father's Name">
+                </div>
+                <div class="form-group">
+                    <label for="father-profession">Father's Profession</label>
+                    <input type="text" id="father-profession" class="form-control" placeholder="Father's Profession">
+                </div>
+                <div class="form-group">
+                    <label for="annual-income">Annual Income($)</label>
+                    <input type="number" id="annual-income" class="form-control" placeholder="Income">
+                </div>
+            </fieldset>
+
             <div class="form-group">
-                <span>Address Line 1</span>
-                <input type="text" class="form-control" placeholder="Address Line 1">
-            </div>
-            <div class="form-group">
-                <span>Address Line 2</span>
-                <input type="text" class="form-control" placeholder="Address Line 2">
-            </div>
-            <div class="form-group">
-                <span>Mobile No.</span>
-                <input type="number" class="form-control" placeholder="Mobile No.">
-            </div>
-            <div>
-                <span>Date of Birth</span>
-                <input type="date" class="form-control">
-            </div>
-            <div class="form-group">
-                <span>Father's name</span>
-                <input type="text" class="form-control" placeholder="Father's Name">
-            </div>
-            <div class="form-group">
-                <span>Father's Profession</span>
-                <input type="text" class="form-control" placeholder="Father's Profession">
-            </div>
-            <div class="form-group">
-                <span>Annual Income($)</span>
-                <input type="number" class="form-control" placeholder="Income">
-            </div>
-            <div style="text-align: center;" class="form-group">
-                <input  class="sub-btn" type="submit">
-                <br/>
-                <b>Or Register with</b>
-                <br/>
-                <a href="#"><img class="icons" height="40px" src="https://developers.google.com/static/business-communications/images/logo-guidelines/do-logo-circle.png"></a>
-                <a href="#"><img class="icons" height="40px" src="data:image/png;base64,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"></a>
-                <a href="#"><img class="icons" height="40px" src="data:image/png;base64,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"></a>
+                <button class="btn btn-primary" type="submit">Submit</button>
             </div>
         </form>
-    </div>
+    </main>
+
     <footer>
         <h3>Contact</h3>
-        <b>Phone</b>: XXX-XXX-XXXX <br/>
+        <b>Phone</b>: XXX-XXX-XXXX <br>
         <b>Email</b>: xyz@gmail.com
     </footer>
-    
+
 </body>
+</html>
